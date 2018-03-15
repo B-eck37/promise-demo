@@ -16,6 +16,7 @@ app.get('/location', (req, res) => {
 })
 app.get('/zip', (req, res) => {
   res.json({ zip: '85003' })
+  // res.status(500).send()
 })
 
 const PORT = 5000
